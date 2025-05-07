@@ -1,0 +1,46 @@
+body{
+    background-color: cornsilk;
+}
+p{
+    color:brown;
+    background-color: aquamarine;
+    font-size: 50px;
+}
+table{
+    margin: auto;
+    border: double green 5px;
+    width: 50%;
+    font-size: 24px;
+    border-collapse: collapse;
+}
+th,td{
+    border: 2px solid brown;
+    width: 25%;
+    height: 1cm;
+}
+tr:hover{
+    background-color: lightslategray;
+}
+td:hover{
+    background-image: url(https://media.tenor.com/3Ajc9wkF-9IAAAAM/rainbow-sparkly.gif);
+    font-weight: bold;
+    text-align: center;
+    color: brown;
+    text-transform: uppercase;
+    font-size: 1.1em;
+}
+tr:nth-child(even) {
+    background-color: antiquewhite;
+}
+tr:nth-child(odd) {
+    background-color: lightpink;
+}
+.spcell {
+    text-align: right;
+    vertical-align: bottom;
+}
+caption{
+    background: linear-gradient( to right, green, teal, blue, indigo);
+    font-size: 36px;
+    text-transform: uppercase;
+}
